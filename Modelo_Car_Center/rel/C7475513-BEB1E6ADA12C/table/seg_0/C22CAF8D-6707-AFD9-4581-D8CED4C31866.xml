@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C22CAF8D-6707-AFD9-4581-D8CED4C31866" name="EMPLEADOS">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:24:53 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="B8ABA799-9E74-BB18-D541-5012ED1CD022">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:40:09 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_persona" id="B477CFCE-3FB2-3279-CE6A-D7F937B09516">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:38:27 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB9095A8-9597-4A74-5ED3-BB4839C7AE42" referredColumn="1B07E05A-EB54-5991-2EDF-A454EF4D094B"/>
+</associations>
+</Column>
+<Column name="tipo_empleado" id="E5360F8C-DA10-964C-EAE4-29D039706B09">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:41:10 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="C57D7EA2-8B3E-3CDF-D71B-ECFA324CD96D">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:41:36 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E377CE7-93F2-3C05-600C-449B05BCFD0F" name="EMPLEADOS_PK">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:40:31 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8ABA799-9E74-BB18-D541-5012ED1CD022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8817B26-20AF-A78C-25F8-215D0A461C52" name="FK_EMP_PERS">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:38:27 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B477CFCE-3FB2-3279-CE6A-D7F937B09516"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

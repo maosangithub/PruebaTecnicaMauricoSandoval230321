@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02605367-A053-F13E-9E4C-CDBE6CE16DBF" name="PERSONA">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:29:56 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_persona" id="1B07E05A-EB54-5991-2EDF-A454EF4D094B">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:32:27 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_nombre" id="4BA5F800-4391-FFF4-2479-0AC07D7E3A35">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:32:27 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="8204FE84-B0C3-AB2A-9769-3E516DDE2AF1">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:32:27 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="64CDB866-97A4-9E70-7A36-9A31E98596B1">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:32:27 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="F3B59B13-0078-8B26-92CA-AA3BBAFB6629">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:32:27 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_documento" id="EEC542DA-872D-D76A-4BC5-E4AEA878D85F">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:32:27 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_documento" id="4879D51B-36D2-D016-B54F-F946C58F513F">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:32:27 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="celular" id="0C3A3A4F-1B35-2053-D380-F5FC9C9257BD">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:36:21 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="46FE7677-35E3-1B4E-F838-AD3E022B6F93">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:36:21 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_electronico" id="C74C06BD-C3C3-1D0E-9DA4-51F22238A232">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:36:21 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDE33CEA-F3D8-52A8-8884-74FC7C8A5851" name="PERSONA_PK">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:32:27 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B07E05A-EB54-5991-2EDF-A454EF4D094B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

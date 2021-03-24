@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9095E5E5-9F6C-1761-A7C9-AD7A70A2E217" name="VEHICULO_FOTOS">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:18:31 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="placa" id="B9E8BB9F-DEE9-0482-0076-24F817E3A54B">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:19:09 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4262E7EF-B6A5-6253-04DD-4540AD930BF1" referredColumn="D2D0F2BC-99F7-9ED9-8480-9F5CF64358F3"/>
+</associations>
+</Column>
+<Column name="id_foto" id="756784E2-F788-E3A1-AE66-09667431BFC8">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:18:48 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B33F0971-DFEB-0E0F-088C-2635B0827F44" referredColumn="C9A0802F-6649-A0D0-28E6-B321ADFF572B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="984C5608-A724-2BFB-0D71-E310D5444741" name="FK_FOT_VEHI">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:18:48 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="756784E2-F788-E3A1-AE66-09667431BFC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C14B5BB1-2DD4-74D1-1585-2D84CE6034C1" name="FK_VEHI_FOTOS">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:19:09 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9E8BB9F-DEE9-0482-0076-24F817E3A54B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

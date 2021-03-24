@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D261A82C-825C-CB52-1C52-B093E09034CF" name="MANTEMINI_SERVICIOS">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:34:38 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="C093BC3A-7817-012D-5BFF-96B251FEAE52">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:35:08 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41356B89-77DE-FFE9-D456-A99A46347746" referredColumn="40B0CB6C-ADB6-DF50-5CD2-AB5587963787"/>
+</associations>
+</Column>
+<Column name="id_mantenimiento" id="C8F192C8-F2F4-7189-8855-16038C1973CF">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:35:31 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57A1A5D5-8ACB-E958-EB77-3744690E939E" referredColumn="AEB477F0-9564-57E0-4ABC-FC682CAF0633"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97323EC0-7BC3-B626-FB7E-66CACA056E43" name="FK_SERVIC_MANTE">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:35:08 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C093BC3A-7817-012D-5BFF-96B251FEAE52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E688665-3DE8-B685-335E-613E68A16316" name="FK_MANTE_SERVIC">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:35:31 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8F192C8-F2F4-7189-8855-16038C1973CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

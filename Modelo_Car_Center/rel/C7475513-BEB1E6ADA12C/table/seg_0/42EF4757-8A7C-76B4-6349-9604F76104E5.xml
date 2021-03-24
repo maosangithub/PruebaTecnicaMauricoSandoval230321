@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42EF4757-8A7C-76B4-6349-9604F76104E5" name="CLIENTE">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:19:49 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="20AA2034-12B5-072F-D2A7-9D0A18604364">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:42:08 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_persona" id="44C20C4F-32ED-3C60-0AD5-A711B78C80D4">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:38:12 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7771D204-8FC7-8644-8E6A-B2FB6083DCF7" referredColumn="1B07E05A-EB54-5991-2EDF-A454EF4D094B"/>
+</associations>
+</Column>
+<Column name="valor_limite" id="850B4FB2-AEC1-9C30-BE7A-C4DDA0654B8C">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:50:09 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8E68326-AF1D-85A1-2C40-18E3429B2453" name="CLIENTE_PK">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:42:08 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20AA2034-12B5-072F-D2A7-9D0A18604364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A6C81FF-2919-793B-B39B-0244A2451862" name="FK_CLI_PERS">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:38:12 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44C20C4F-32ED-3C60-0AD5-A711B78C80D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

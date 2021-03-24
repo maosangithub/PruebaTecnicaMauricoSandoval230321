@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0F844D6C-4C53-025E-B3FE-41D52F8ECADF" containerWithKeyObject="A5B16C79-E9BD-59C1-3E9B-BD0DBE8C9B36" localFKIndex="D8865466-A6EE-C6DD-0819-28F8B6AB9421" name="FK_FACTURA_MANTENIMIENTO">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:39:28 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<referredTableLongName>MANTENIMIENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D5D9B4EB-F8BA-4508-AC21-720A53608464</referredTableID>
+<keyObject>150199D4-C922-1A68-D71C-B8AE59F6DCAE</keyObject>
+<referredKeyID>150199D4-C922-1A68-D71C-B8AE59F6DCAE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_mantenimiento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

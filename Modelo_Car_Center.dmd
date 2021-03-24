@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Car_Center" id="7C1DA2D9-EBAA-85A7-F0E5-E05F24C7420E" version="3.5">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:18:52 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7C1DA2D9-EBAA-85A7-F0E5-E05F24C7420E</designId>
+</OSDM_Design>

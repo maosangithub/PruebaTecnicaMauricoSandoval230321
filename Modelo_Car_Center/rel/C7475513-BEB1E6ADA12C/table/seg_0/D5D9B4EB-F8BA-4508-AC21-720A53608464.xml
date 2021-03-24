@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5D9B4EB-F8BA-4508-AC21-720A53608464" name="MANTENIMIENTO">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:20:26 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mantenimiento" id="AEB477F0-9564-57E0-4ABC-FC682CAF0633">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:28:31 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa" id="C6800FDA-5682-7511-4E6F-803B0FCFBB8C">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 01:04:24 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07ED39FC-5F72-167F-37EB-1918A9DF778F" referredColumn="D2D0F2BC-99F7-9ED9-8480-9F5CF64358F3"/>
+</associations>
+</Column>
+<Column name="id_tienda" id="2236C868-ABB6-6264-73A1-7CCDB3FC578A">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 01:56:58 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17E47BC7-470D-8234-B7FA-10F60B332638" referredColumn="430E4325-3999-D188-254E-FE7401A503CA"/>
+</associations>
+</Column>
+<Column name="estado" id="4A27115F-82CA-A873-5F0B-2D658DC924B4">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:28:31 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="P" description="PENDIENTE"/>
+<valueDef value="T" description="TERMINADO"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="150199D4-C922-1A68-D71C-B8AE59F6DCAE" name="MANTENIMIENTO_PK">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:28:31 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEB477F0-9564-57E0-4ABC-FC682CAF0633"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AC147F2-B73B-599D-64FE-4D580DAB0856" name="FK_MANTENI_VEHI">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 01:04:24 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6800FDA-5682-7511-4E6F-803B0FCFBB8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D5410A1-4C3A-3F8A-176E-E02D9EA0D30F" name="FK_MANT_TIENDA">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 01:56:58 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2236C868-ABB6-6264-73A1-7CCDB3FC578A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

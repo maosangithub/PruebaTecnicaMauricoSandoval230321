@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5B16C79-E9BD-59C1-3E9B-BD0DBE8C9B36" name="FACTURA">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-23 23:20:18 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_factura" id="A72C46F8-ACB3-5271-356F-095726E5B3A0">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:44:55 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="F973CCF8-0B00-9B58-A4A8-4EA98E248FF7">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:45:11 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="E31194F0-34B1-BC8D-7CF4-3021209B82EA">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:38:21 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CED7BB2-C627-CA7F-D80D-15E9993E91B3" referredColumn="20AA2034-12B5-072F-D2A7-9D0A18604364"/>
+</associations>
+</Column>
+<Column name="id_empleado" id="5584F83A-88D2-12BC-54D9-E1149FEF5264">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:38:39 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFB6D602-2ECD-02F9-4C69-3CF4C2F0FD4C" referredColumn="B8ABA799-9E74-BB18-D541-5012ED1CD022"/>
+</associations>
+</Column>
+<Column name="id_mantenimiento" id="DD44749D-DA47-30BB-D3CD-FBE69D8182CA">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:39:28 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F844D6C-4C53-025E-B3FE-41D52F8ECADF" referredColumn="AEB477F0-9564-57E0-4ABC-FC682CAF0633"/>
+</associations>
+</Column>
+<Column name="subtotal" id="996F2C82-B3E8-E4F2-7AEB-EE6F4B8C2163">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:46:39 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="impuesto" id="8EB5CFCF-27CE-2FB4-2845-D4C281F3471F">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:47:00 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descuento" id="7D017BB9-A7E3-679D-26CB-68D133D8C8C1">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:47:39 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="590F96CC-A6C2-EC92-6242-1700538C16ED">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:47:00 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0F2CD94-6FD5-6A2C-C4DC-8A23D864B960" name="FACTURA_PK">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:44:14 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A72C46F8-ACB3-5271-356F-095726E5B3A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F5294AE-1FD3-6A7C-C82E-2BB453CFB6C4" name="FK_FACTURA_CLIENTE">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:38:21 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E31194F0-34B1-BC8D-7CF4-3021209B82EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A531B7E-4B5B-2986-96F7-B37781DB56D9" name="FK_FACTURA_EMPLEADOS">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:38:39 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5584F83A-88D2-12BC-54D9-E1149FEF5264"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8865466-A6EE-C6DD-0819-28F8B6AB9421" name="FK_FACTURA_MANTENIMIENTO">
+<createdBy>maosa</createdBy>
+<createdTime>2021-03-24 00:39:28 UTC</createdTime>
+<ownerDesignName>Modelo_Car_Center</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD44749D-DA47-30BB-D3CD-FBE69D8182CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
